@@ -19,10 +19,10 @@ else
     subdirectory="1"
 fi
 
-fileicon set ~/Desktop/docs ~/repos/autoBG/icons/$subdirectory/1.png
-fileicon set ~/Desktop/photo ~/repos/autoBG/icons/$subdirectory/2.png
-fileicon set ~/Desktop/bu ~/repos/autoBG/icons/$subdirectory/3.png
-fileicon set ~/Desktop/ridoot ~/repos/autoBG/icons/$subdirectory/4.png
-fileicon set ~/Desktop/other ~/repos/autoBG/icons/$subdirectory/5.png
-fileicon set ~/Desktop/clean ~/repos/autoBG/icons/$subdirectory/6.png
-fileicon set ~/Desktop/jobs ~/repos/autoBG/icons/$subdirectory/7.png
+/opt/homebrew/bin/fileicon set /Users/rida/Desktop/docs /Users/rida/repos/autoBG/icons/$subdirectory/1.png
+/opt/homebrew/bin/fileicon set /Users/rida/Desktop/photo /Users/rida/repos/autoBG/icons/$subdirectory/2.png
+/opt/homebrew/bin/fileicon set /Users/rida/Desktop/bu /Users/rida/repos/autoBG/icons/$subdirectory/3.png
+/opt/homebrew/bin/fileicon set /Users/rida/Desktop/ridoot /Users/rida/repos/autoBG/icons/$subdirectory/4.png
+/opt/homebrew/bin/fileicon set /Users/rida/Desktop/other /Users/rida/repos/autoBG/icons/$subdirectory/5.png
+/opt/homebrew/bin/fileicon set /Users/rida/Desktop/clean /Users/rida/repos/autoBG/icons/$subdirectory/6.png
+/opt/homebrew/bin/fileicon set /Users/rida/Desktop/jobs /Users/rida/repos/autoBG/icons/$subdirectory/7.png
