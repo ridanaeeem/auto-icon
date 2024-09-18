@@ -9,7 +9,7 @@ I achieved this by:
 1. Finding some penguin sprite images and giving them transparent backgrounds, placing them into the `icons` folder. I have seven folders on my desktop, so I made groupings of seven penguins each.
 2. Turning them into squares by adding transparent bars to whichever axis of the image is smaller, using `resize_all.sh` which uses the code in `resize.py`.
 3. Using the [fileicon](https://github.com/mklement0/fileicon) CLI in the `change_icon.sh` script to change the icon to each folder depending on the time of day.
-4. I created a `cronjob` to run `change_icon.sh` every four hours, which is when the penguins are supposed to change. The `cronjob` is as follows: `0 */4 * * * /full/path/to/file/change_icon.sh`
+4. I created a `cronjob` to run `change_icon.sh` every three hours, which is when the penguins are supposed to change. The `cronjob` is as follows: `0 */3 * * * /full/path/to/file/change_icon.sh`
 
 Now, here are some examples of what I see on my desktop every four hours:
 ![a penguin holding a pot of gold changing into another penguin holding dumbbells](public/penguin1.gif)

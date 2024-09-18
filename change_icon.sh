@@ -3,18 +3,22 @@
 current_hour=$(date +"%H")  #00-23
 current_minute=$(date +"%M")  #00-59
 
-if [ $current_hour -ge 0 ] && [ $current_hour -lt 4 ]; then
+if [ $current_hour -ge 0 ] && [ $current_hour -lt 3 ]; then
     subdirectory="1"
-elif [ $current_hour -ge 4 ] && [ $current_hour -lt 8 ]; then
+elif [ $current_hour -ge 3 ] && [ $current_hour -lt 6 ]; then
     subdirectory="2"
-elif [ $current_hour -ge 8 ] && [ $current_hour -lt 16 ]; then
+elif [ $current_hour -ge 6 ] && [ $current_hour -lt 9 ]; then
     subdirectory="3"
-elif [ $current_hour -ge 12 ] && [ $current_hour -lt 16 ]; then
+elif [ $current_hour -ge 9 ] && [ $current_hour -lt 12 ]; then
+    subdirectory="4"
+elif [ $current_hour -ge 12 ] && [ $current_hour -lt 15 ]; then
     subdirectory="1"
-elif [ $current_hour -ge 16 ] && [ $current_hour -lt 20 ]; then
+elif [ $current_hour -ge 15 ] && [ $current_hour -lt 18 ]; then
     subdirectory="2"
-elif [ $current_hour -ge 20 ] && [ $current_hour -lt 24 ]; then
+elif [ $current_hour -ge 18 ] && [ $current_hour -lt 21 ]; then
     subdirectory="3"
+elif [ $current_hour -ge 21 ] && [ $current_hour -lt 24 ]; then
+    subdirectory="4"
 else
     subdirectory="1"
 fi
