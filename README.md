@@ -12,4 +12,5 @@ I achieved this by:
 4. I created a `cronjob` to run `change_icon.sh` every three hours, which is when the penguins are supposed to change. The `cronjob` is as follows: `0 */3 * * * /full/path/to/file/change_icon.sh`
 
 Now, here are some examples of what I see on my desktop every four hours:
+![a penguin holding a pot of gold changing into another penguin holding dumbbells](public/penguin1.gif)
 ![a penguin wearing glasses changing into another penguin wearing a hoddie, and a penguin with rainbow hair changing into another penguin with a tuba](public/penguin2.gif)
